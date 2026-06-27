@@ -27,3 +27,13 @@ Thumbs.db
 .aios-core/local/
 .claude/settings.local.json
 .aios/install-log.txt
+
+
+# Next.js (adicionado em 27/06/2026)
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Turbo (cache local)
+.turbo/cache/

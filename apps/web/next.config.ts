@@ -6,9 +6,9 @@ const nextConfig: NextConfig = {
     domains: [],
   },
   experimental: {
-    turbopack: {
-      root: __dirname,
-    },
+    // Next.js 16+: a config `turbopack` foi promovida para o root config
+    // (não mais dentro de experimental). Mantemos experimental vazio até
+    // validar a migração completa em uma próxima story.
   },
 };
 
